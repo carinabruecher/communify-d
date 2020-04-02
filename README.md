@@ -1,2 +1,8 @@
-# OleMantei_ON18
- WT3 Individualprojekt (Semester 3)
+# Communify
+Gruppenprojekt (Semester 4)
+
+Carina Brücher,
+Christina Bünagel,
+Steffen Lützner,
+Nick Weller
+
