@@ -1,5 +1,8 @@
 <?php
 
+echo $_SERVER['REMOTE_ADDR'];
+exit;
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *

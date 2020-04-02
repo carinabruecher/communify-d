@@ -15,6 +15,18 @@ class CreatePostsTable extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('userId')
+                ->references('id')
+                ->on('users')
+                ->onDelete('cascade');
+            $table->integer('commmunityId')
+                ->references('id')
+                ->on('communities')
+                ->onDelete('cascade');
+            $table->string('imageUrl');
+            $table->string('description');
+            $table->string('tag');
+            $table->integer('likes');
             $table->timestamps();
         });
     }
